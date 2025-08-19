@@ -1,0 +1,15 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 23-31
+    file_path: terraform/lambda_elfshaker.tf
+    resource: aws_s3_bucket.elfshaker-godbolt-org
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 253-261
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.ce-cdn-net
+  failed_checks_count: 2
+  files_count: 2
+  repo: https://github.com/compiler-explorer/infra

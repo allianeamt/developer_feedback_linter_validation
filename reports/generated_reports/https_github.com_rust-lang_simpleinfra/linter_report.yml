@@ -1,0 +1,60 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: terraform/docs-rs/s3.tf
+    resource: aws_s3_bucket.storage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 43-45
+    file_path: terraform/domain-redirects/impl/main.tf
+    resource: aws_s3_bucket.redirect
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 13-15
+    file_path: terraform/releases/keys.tf
+    resource: aws_s3_bucket.release_keys
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 112-115
+    file_path: terraform/shared/s3.tf
+    resource: aws_s3_bucket.rust_lang_crates_io_index
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-15
+    file_path: terragrunt/modules/crates-io/s3-index.tf
+    resource: aws_s3_bucket.index
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 129-137
+    file_path: terragrunt/modules/crates-io/s3-static.tf
+    resource: aws_s3_bucket.fallback
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 7-9
+    file_path: terragrunt/modules/docs-rs/s3.tf
+    resource: aws_s3_bucket.storage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 91-93
+    file_path: terragrunt/modules/docs-rs/s3.tf
+    resource: aws_s3_bucket.inventory
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: terragrunt/modules/gha-self-hosted-images/storage.tf
+    resource: aws_s3_bucket.storage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 135-137
+    file_path: terragrunt/modules/rustc-ci/artifacts.tf
+    resource: aws_s3_bucket.inventories
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 3-7
+    file_path: terragrunt/modules/rustup/s3.tf
+    resource: aws_s3_bucket.builds
+  failed_checks_count: 11
+  files_count: 10
+  repo: https://github.com/rust-lang/simpleinfra

@@ -1,0 +1,10 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 6-10
+    file_path: storage/aws/s3/main.tf
+    resource: aws_s3_bucket.s3_bucket
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/aneoconsulting/ArmoniK.Infra

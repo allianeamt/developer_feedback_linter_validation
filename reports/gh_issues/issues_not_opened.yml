@@ -1,0 +1,31 @@
+- error: Issues disabled
+  repo: https://github.com/BastLeblanc/retail-demo-store
+- error: Issues disabled
+  repo: https://github.com/govuk-one-login/onboarding-self-service-experience
+- error: Issues disabled
+  repo: https://github.com/govuk-one-login/txma-infra
+- error: '{"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}'
+- error: Issues disabled
+  repo: https://github.com/nhsconnect/prm-mhs-infra
+- error: '{"message":"Repository was archived so is read-only.","documentation_url":"https://docs.github.com/rest/issues/issues#create-an-issue","status":"403"}'
+  repo: https://github.com/alphagov/govuk-aws
+- error: Issues disabled
+  repo: https://github.com/Percona-Lab/jenkins-pipelines
+- error: Issues disabled
+  repo: https://github.com/zaro0508/organizations-infra
+- error: Issues disabled
+  repo: https://github.com/Sage-Bionetworks-IT/organizations-infra
+- error: Issues disabled
+  repo: https://github.com/brucehoff/organizations-infra
+- error: Issues disabled
+  repo: https://github.com/awslabs/aws-well-architected-labs
+- error: Issues disabled
+  repo: https://github.com/benkulcsar/newswatch
+- error: Issues disabled
+  repo: https://github.com/SonarSource/sonar-iac
+- error: Issues disabled
+  repo: https://github.com/cabinetoffice/gender-pay-gap
+- error: Issues disabled
+  repo: https://github.com/erickwill/litellm
+- error: Issues disabled
+  repo: https://github.com/govuk-one-login/onboarding-product-page

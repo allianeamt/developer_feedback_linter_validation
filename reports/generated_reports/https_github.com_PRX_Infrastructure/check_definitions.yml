@@ -1,0 +1,17 @@
+check_definitions:
+- check_id: CKV_AWS_805
+  check_name: S3 Lifecycle Configurations
+  description: Verifies that S3 buckets have lifecycle configurations with at least
+    one rule defined. Missing rules may lead to data retention in expensive storage
+    indefinitely, thus increasing costs.
+  recommendations:
+  - Define LifecycleConfiguration in the Properties section of the bucket.
+  - Include a non-empty Rules list with expiration/transition logic.
+- check_id: CKV_AWS_806
+  check_name: DynamoDB On-Demand Billing
+  description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    billing. This can lead to over-provisioning, unnecessary costs, or throttling
+    if usage exceeds limits.
+  recommendations:
+  - Set BillingMode:PAY_PER_REQUEST in your DynamoDB table configuration.
+  - Avoid setting the read/write capacity.

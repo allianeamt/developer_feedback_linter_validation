@@ -1,0 +1,25 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-19
+    file_path: apps-devstg/us-east-1/k8s-kops/1-prerequisites/s3.tf
+    resource: aws_s3_bucket.kops_state
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 104-114
+    file_path: apps-devstg/us-east-1/k8s-kops/1-prerequisites/s3.tf
+    resource: aws_s3_bucket.kops_irsa
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 7-14
+    file_path: security/us-east-2/security-audit/awscloudtrail_replication.tf
+    resource: aws_s3_bucket.cloudtrail_s3_bucket-dr
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 7-14
+    file_path: security/us-east-2/security-compliance --/awsconfig_replication.tf
+    resource: aws_s3_bucket.config_s3_bucket-dr
+  failed_checks_count: 4
+  files_count: 3
+  repo: https://github.com/binbashar/le-tf-infra-aws

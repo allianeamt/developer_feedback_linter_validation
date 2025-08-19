@@ -1,0 +1,50 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV_AWS_803
+    check_name: DynamoDB GSIs
+    file_line_range: 5-51
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_request_metadata
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 5-51
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_request_metadata
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 54-75
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_request
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 78-105
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_request_audit
+  - check_id: CKV_AWS_802
+    check_name: DynamoDB Overprovisioned r/w Capacity
+    file_line_range: 108-135
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_controltower_events
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 108-135
+    file_path: modules/aft-account-request-framework/ddb.tf
+    resource: aws_dynamodb_table.aft_controltower_events
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 10-18
+    file_path: modules/aft-backend/main.tf
+    resource: aws_s3_bucket.primary-backend-bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 27-34
+    file_path: modules/aft-backend/main.tf
+    resource: aws_s3_bucket.secondary-backend-bucket[0]
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 6-8
+    file_path: modules/aft-customizations/s3.tf
+    resource: aws_s3_bucket.aft_codepipeline_customizations_bucket
+  failed_checks_count: 9
+  files_count: 3
+  repo: https://github.com/aws-ia/terraform-aws-control_tower_account_factory

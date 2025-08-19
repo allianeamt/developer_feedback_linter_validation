@@ -1,0 +1,30 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 210-213
+    file_path: examples/deployment/complete/main.tf
+    resource: aws_s3_bucket.source
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 57-60
+    file_path: examples/deployment/s3/main.tf
+    resource: aws_s3_bucket.source
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 5-21
+    file_path: examples/with-event-source-mappings/dynamodb-with-alias/main.tf
+    resource: aws_dynamodb_table.table_1
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 23-39
+    file_path: examples/with-event-source-mappings/dynamodb-with-alias/main.tf
+    resource: aws_dynamodb_table.table_2
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 172-178
+    file_path: modules/deployment/main.tf
+    resource: aws_s3_bucket.pipeline
+  failed_checks_count: 5
+  files_count: 4
+  repo: https://github.com/moritzzimmer/terraform-aws-lambda

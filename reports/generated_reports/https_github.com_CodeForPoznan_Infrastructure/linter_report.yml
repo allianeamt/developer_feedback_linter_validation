@@ -1,0 +1,20 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 120-128
+    file_path: codeforpoznan_pl.tf
+    resource: aws_s3_bucket.codeforpoznan_public
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 171-179
+    file_path: codeforpoznan_pl.tf
+    resource: aws_s3_bucket.codeforpoznan_lambdas
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 187-195
+    file_path: codeforpoznan_pl.tf
+    resource: aws_s3_bucket.codeforpoznan_tfstate
+  failed_checks_count: 3
+  files_count: 1
+  repo: https://github.com/CodeForPoznan/Infrastructure

@@ -1,0 +1,40 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1036-1038
+    file_path: cdn.tf
+    resource: aws_s3_bucket.v2
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1040-1042
+    file_path: cdn.tf
+    resource: aws_s3_bucket.cf_logs
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1044-1062
+    file_path: cdn.tf
+    resource: aws_s3_bucket.history
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1064-1066
+    file_path: cdn.tf
+    resource: aws_s3_bucket.predict
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1068-1070
+    file_path: cdn.tf
+    resource: aws_s3_bucket.predict-testing
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1073-1075
+    file_path: cdn.tf
+    resource: aws_s3_bucket.card
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 131-132
+    file_path: main.tf
+    resource: aws_s3_bucket.lambda_functions
+  failed_checks_count: 7
+  files_count: 2
+  repo: https://github.com/projecthorus/sondehub-infra

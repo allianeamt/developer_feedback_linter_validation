@@ -1,0 +1,25 @@
+linter_report:
+- failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 49-65
+    file_path: cur/cost-and-usage-report/template.yml
+    resource: AWS::S3::Bucket.ReportBucket
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 312-338
+    file_path: spire/templates/apps/dovetail-analytics.yml
+    resource: AWS::DynamoDB::Table.AnalyticsDynamoDbTable
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 13-32
+    file_path: storage/storage.yml
+    resource: AWS::S3::Bucket.InfrastructureSnapshotsBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 33-54
+    file_path: storage/storage.yml
+    resource: AWS::S3::Bucket.InfrastructureApplicationCodeBucket
+  failed_checks_count: 4
+  files_count: 3
+  repo: https://github.com/PRX/Infrastructure
